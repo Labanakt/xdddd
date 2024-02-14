@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentine's Day Surprise</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <style>
+        body {
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        /* Responsive styling for the CONGRATULATIONS text */
+        h2 {
+            text-align: center;
+            font-size: 24px; /* Adjust the font size as needed */
+            margin: 0; /* Remove any default margin */
+            padding: 10px; /* Add some padding for better spacing */
+        }
+    </style>
 </head>
 <body>
     <div id="spotifyPlaylist" class="spotify-playlist">
         <h2>CONGRATULATIONS!</h2>
-
-            <!-- Embed Spotify playlist using iframe -->
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/24Tx5uZlNuBzvChhBKXZCe?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+        <!-- Embed Spotify playlist using iframe -->
     </div>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/24Tx5uZlNuBzvChhBKXZCe?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </body>
 </html>
