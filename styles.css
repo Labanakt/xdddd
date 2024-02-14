@@ -62,10 +62,16 @@ button[type="submit"]:hover {
     background-color: #45a049; /* Button background color on hover */
 }
 
-/* CSS for smaller screens (e.g., smartphones) */
 @media screen and (max-width: 600px) {
     .image-grid img {
         width: 100%; /* Make images fill their containers */
         height: auto; /* Auto height to maintain aspect ratio */
     }
-}
+
+    /* Adjust the size of the Spotify playlist iframe */
+    .spotify-playlist iframe {
+        width: 100%; /* Make the iframe fill its container */
+        height: 300px; /* Set a fixed height for the playlist */
+        max-width: 100%; /* Ensure the iframe doesn't exceed the screen width */
+        border-radius: 12px; /* Add rounded corners */
+    }
