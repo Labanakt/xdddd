@@ -17,31 +17,16 @@
             margin: 0; /* Remove any default margin */
             padding: 10px; /* Add some padding for better spacing */
         }
-
-        /* Positioning for the Spotify playlist and the GIF */
-        #spotifyPlaylist {
-            text-align: center; /* Center the content horizontally */
-        }
-
-        iframe {
-            border-radius: 12px; /* Add rounded corners to the iframe */
-            margin-bottom: 20px; /* Add some space below the Spotify playlist */
-        }
-
-        .bottom-gif {
-            display: block;
-            margin: 0 auto; /* Center the GIF horizontally */
-        }
     </style>
 </head>
 <body>
     <div id="spotifyPlaylist" class="spotify-playlist">
         <h2>CONGRATULATIONS!</h2>
         <!-- Embed Spotify playlist using iframe -->
-        <iframe src="https://open.spotify.com/embed/playlist/24Tx5uZlNuBzvChhBKXZCe?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/24Tx5uZlNuBzvChhBKXZCe?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-    <!-- Insert the GIF below the Spotify playlist -->
-    <img src="/pictures/geles.gif" alt="pic" class="bottom-gif">
+    <!-- Insert the GIF called "geles.gif" at the bottom of the page -->
+    <img src="/pictures/geles.gif" alt="geles" style="display: block; margin: 0 auto;">
 </body>
 </html>
