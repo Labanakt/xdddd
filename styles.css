@@ -29,7 +29,7 @@ h2 {
 .center-container {
     display: flex;
     justify-content: center;
-    width: 25%; /* Adjust to 25% for 2 times smaller */
+    width: 50%; /* Adjust to 25% for 2 times smaller */
     margin: 0 auto; /* Center the container horizontally */
 }
 
