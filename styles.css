@@ -5,6 +5,7 @@ body {
     margin: 0; /* Remove default body margin */
     padding: 0; /* Remove default body padding */
 }
+
 button#continueButton {
     background-color: #ff4d4d; /* Valentine red color */
     color: white;
@@ -61,3 +62,10 @@ button[type="submit"]:hover {
     background-color: #45a049; /* Button background color on hover */
 }
 
+/* CSS for smaller screens (e.g., smartphones) */
+@media screen and (max-width: 600px) {
+    .image-grid img {
+        width: 100%; /* Make images fill their containers */
+        height: auto; /* Auto height to maintain aspect ratio */
+    }
+}
