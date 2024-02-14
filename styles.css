@@ -1,0 +1,63 @@
+/* Existing CSS styles */
+
+body {
+    background-color: #ff4d4d; /* Valentine red color */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+button#continueButton {
+    background-color: #ff4d4d; /* Valentine red color */
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#continueButton:hover {
+    background-color: #ff3333; /* Darker shade of red on hover */
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    width: 25%; /* Adjust to 25% for 2 times smaller */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 0; /* No gap between images */
+    margin-top: 20px;
+}
+
+.image-grid img {
+    width: 100%; /* Make images fill their containers */
+    height: auto; /* Auto height to maintain aspect ratio */
+}
+
+/* Styling for the continue button */
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the continue button */
+button[type="submit"]:hover {
+    background-color: #45a049; /* Button background color on hover */
+}
+
