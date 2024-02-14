@@ -61,3 +61,11 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #45a049; /* Button background color on hover */
 }
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    width: 30%; /* Adjust to 25% for 2 times smaller */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
