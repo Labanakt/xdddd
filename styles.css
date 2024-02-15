@@ -64,8 +64,6 @@ button[type="submit"]:hover {
 
 .bottom-container {
     display: flex;
-    justify-content: center;
-    width: 30%; /* Adjust to 25% for 2 times smaller */
-    margin: 0 auto; /* Center the container horizontally */
-}
+    justify-content: center; 
+align-items: center;}
 
