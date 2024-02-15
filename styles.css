@@ -64,8 +64,13 @@ button[type="submit"]:hover {
 
 .bottom-container {
     display: flex;
-    justify-content: center;
-    width: 30%; /* Adjust to 25% for 2 times smaller */
-    margin: 0 auto; /* Center the container horizontally */
+    justify-content: center; 
+    align-items: center;
 }
 
+/* Set a specific max-width for the image */
+.bottom-container img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 400px; /* Set the maximum height as needed */
+}
